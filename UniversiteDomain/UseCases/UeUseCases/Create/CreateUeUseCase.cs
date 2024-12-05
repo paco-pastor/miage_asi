@@ -3,9 +3,9 @@ using UniversiteDomain.DataAdapters.DataAdaptersFactory;
 using UniversiteDomain.Entities;
 using UniversiteDomain.Exceptions.UeExceptions;
 
-namespace UniversiteDomain.UseCases.UeUseCases.Create;
+namespace UniversiteDomain.UseCase.UeUseCase.Create;
 
-public class CreateUeUseCases(IRepositoryFactory repositoryFactory)
+public class CreateUeUseCase(IRepositoryFactory repositoryFactory)
 {
         public async Task<Ue> ExecuteAsync(string numeroUe, string intitule)
     {
