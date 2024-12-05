@@ -6,7 +6,7 @@ using UniversiteDomain.UseCase.UeUseCase.Create;
 
 namespace UniversiteDomainUnitTests;
 
-public class UeUnitTest
+public class UeUnitTests
 {
 
     [Test]

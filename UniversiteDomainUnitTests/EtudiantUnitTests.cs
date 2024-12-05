@@ -6,7 +6,7 @@ using UniversiteDomain.UseCases.EtudiantUseCases.Create;
 
 namespace UniversiteDomainUnitTests;
 
-public class EtudiantUnitTest
+public class EtudiantUnitTests
 {
     [SetUp]
     public void Setup()
