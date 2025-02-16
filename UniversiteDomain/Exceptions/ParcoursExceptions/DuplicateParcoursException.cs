@@ -1,4 +1,4 @@
-namespace UniversiteDomain.Exceptions.ParcoursExceptions;
+﻿namespace UniversiteDomain.Exceptions.ParcoursExceptions;
 
 [Serializable]
 public class DuplicateParcoursException : Exception

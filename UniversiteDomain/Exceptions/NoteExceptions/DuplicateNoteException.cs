@@ -1,4 +1,4 @@
-namespace UniversiteDomain.Exceptions.UeExceptions;
+﻿namespace UniversiteDomain.Exceptions.NoteExceptions;
 
 public class DuplicateNoteException : Exception
 {

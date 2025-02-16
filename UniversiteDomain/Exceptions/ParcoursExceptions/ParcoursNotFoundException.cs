@@ -1,5 +1,6 @@
-namespace UniversiteDomain.Exceptions.ParcoursExceptions;
+﻿namespace UniversiteDomain.Exceptions.ParcoursExceptions;
 
+[Serializable]
 public class ParcoursNotFoundException : Exception
 {
     public ParcoursNotFoundException() : base() { }

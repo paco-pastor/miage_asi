@@ -1,4 +1,4 @@
-namespace UniversiteDomain.Entities;
+﻿namespace UniversiteDomain.Entities;
 
 public class Etudiant
 {
@@ -7,9 +7,8 @@ public class Etudiant
     public string Nom { get; set; } = string.Empty;
     public string Prenom { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
-    
-    // ManyToOne : l'étudiant est inscrit dans un parcours
     public Parcours? ParcoursSuivi { get; set; } = null;
+    public List<Note>? NotesObtenues { get; set; } = new();
 
     public override string ToString()
     {

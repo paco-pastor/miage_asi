@@ -1,4 +1,4 @@
-namespace UniversiteDomain.Exceptions.UeExceptions;
+﻿namespace UniversiteDomain.Exceptions.ParcoursExceptions;
 
 public class DuplicateUeDansParcoursException : Exception
 {

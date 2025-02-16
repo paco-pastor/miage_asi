@@ -1,15 +1,15 @@
-namespace UniversiteDomain.Entities;
+﻿namespace UniversiteDomain.Entities;
 
 public class Note
 {
-    public long IdEtudiant { get; set; }
-    public long IdUe { get; set; }
     public float Valeur { get; set; }
-    public Etudiant Etudiant { get; set; }
-    public Ue Ue { get; set; }
+    public long EtudiantId { get; set; }
+    public Etudiant Etudiant { get; set; } = null!;
+    public long UeId { get; set; }
+    public Ue Ue { get; set; } = null!;
     
     public override string ToString()
     {
-        return "Note de "+Valeur+" pour l'etudiant "+IdEtudiant+" en "+IdUe;
+        return "Note de "+Valeur +" pour l'étudiant "+Etudiant?.Nom+" "+Etudiant?.Prenom+" en "+Ue?.Intitule;
     }
 }
